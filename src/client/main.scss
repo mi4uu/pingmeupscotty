@@ -1,0 +1,78 @@
+$color1: #4a4a4a;
+$colorbg1: #f5f5f5;
+$colorbg2: #dbdbdb;
+article.message {
+  background-color: $colorbg1;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin: 10px;
+  div.message-header {
+    align-items: center;
+    background-color: $color1;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    line-height: 1.25;
+    padding: 0.75em 1em;
+    position: relative;
+  }
+  div.message-body {
+    border-color: $colorbg2;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 0 0 0 4px;
+    color: #4a4a4a;
+    padding: 1.25em 1.5em;
+  }
+}
+
+.msgDisplay {
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  width: 100vw;
+  z-index: 1;
+  text-align: center;
+  display: none;
+}
+
+.error {
+  display: block;
+  background: red;
+}
+
+.sucess {
+  display: block;
+  background: green;
+}
+
+.connected {
+  color: green
+}
+
+.disconnected {
+  color: red
+}
+
+form>* {
+  width: 30vw
+}
+
+table td {
+  width: 30vw;
+  text-align: center
+}
+
+div.host {
+  display: inline-block;
+  padding: 14px;
+  background: $colorbg2;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+button {
+  float: right
+}
