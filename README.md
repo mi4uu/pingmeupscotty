@@ -1,6 +1,7 @@
 # pingMeUpScotty
 
 ![alt text](show.gif)
+![alt text](pingme.webm)
 
 - run service :
   npm run service
