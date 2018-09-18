@@ -1,7 +1,6 @@
 import { obj2buffer, hostsRegexp } from '@pingservice/helpers'
 import { PORT as SERVICEPORT, HOST as SERVICEHOST } from '@pingservice/config'
 import Koa from 'koa'
-import route from 'koa-route'
 import websockify from 'koa-websocket'
 import net from 'net'
 import compress from 'koa-compress'
