@@ -8,6 +8,14 @@
   npm start
 - go to http://localhost:3000
 
+DESCRIPTION:
+the server is using KOA 
+ping service is using the standard net library to create a custom HTTP server
+the frontend is using fuse-box as a bundler
+also, I did use REACT with REDUX and react-SAGAS to handle side effects. 
+the frontend is using websockets to communicate with the server and provide live updates.
+
+
 
 --------------------------- 
 # task description
